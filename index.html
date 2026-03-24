@@ -489,6 +489,84 @@
         justify-content: center;
       }
     }
+
+    /* Extra anti-overlap spacing for cards and metrics */
+    .skills-grid {
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: var(--space-6);
+      align-items: start;
+    }
+
+    .skills-card {
+      padding: var(--space-6);
+      display: grid;
+      gap: var(--space-3);
+      overflow-wrap: anywhere;
+    }
+
+    .skills-card ul {
+      display: grid;
+      gap: var(--space-2);
+    }
+
+    .list {
+      gap: var(--space-6);
+    }
+
+    .list-item {
+      padding: var(--space-6);
+      display: grid;
+      gap: var(--space-3);
+      overflow-wrap: anywhere;
+    }
+
+    .list-item p {
+      margin-top: var(--space-2);
+      overflow-wrap: anywhere;
+    }
+
+    .contact-box {
+      padding: var(--space-6);
+      gap: var(--space-5);
+      align-content: start;
+      overflow-wrap: anywhere;
+    }
+
+    .contact-row {
+      gap: var(--space-2);
+    }
+
+    .metrics {
+      gap: var(--space-5);
+      align-items: stretch;
+    }
+
+    .metric {
+      padding: var(--space-4) var(--space-5);
+      min-height: 110px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      line-height: 1.6;
+      overflow-wrap: anywhere;
+    }
+
+    .metric-value {
+      margin-bottom: var(--space-2);
+      line-height: 1.2;
+    }
+
+    .metric-label {
+      line-height: 1.5;
+    }
+
+    @media (max-width: 700px) {
+      .skills-grid,
+      .metrics {
+        grid-template-columns: 1fr;
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -742,12 +820,12 @@
         <div class="contact-box">
           <div class="contact-row">
             <span class="contact-label">Email</span>
-            <!-- Replace with your real email -->
+            <!-- Replace with real email -->
             <a href="mailto:your.email@example.com">your.email@example.com</a>
           </div>
           <div class="contact-row">
             <span class="contact-label">LinkedIn / profile</span>
-            <!-- Replace with your real profile -->
+            <!-- Replace with real profile -->
             <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn profile link</a>
           </div>
           <div class="contact-row">
