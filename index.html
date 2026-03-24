@@ -4,12 +4,9 @@
   <meta charset="UTF-8">
   <title>Diogo Santos – Ecology Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Simple, clean typography from Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
-
   <style>
     :root {
       --bg: #f7f6f2;
@@ -574,281 +571,179 @@
     <div class="nav">
       <div class="logo">
         <div class="logo-mark" aria-hidden="true"></div>
-        <span>Diogo Santos · Ecology</span>
+        <span id="brand-text">Diogo Santos · Ecology</span>
       </div>
-      <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <nav class="nav-links" aria-label="Primary navigation" id="nav-links"></nav>
     </div>
   </header>
 
   <main>
-    <!-- HERO -->
     <section class="hero" id="top" aria-label="Introduction">
       <div>
-        <h1 class="hero-title">Ecologist focused on ecosystems, biodiversity and restoration.</h1>
-        <p class="hero-tagline">
-          I work at the intersection of field ecology, data analysis, and conservation practice—translating observations
-          from the landscape into evidence-based decisions.
-        </p>
-        <div class="hero-meta">
-          <span class="pill">Based in Stockport, England</span>
-          <span class="pill">Open to field & research roles</span>
-        </div>
-        <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary">Contact me for opportunities</a>
-          <a href="#projects" class="btn btn-ghost">View selected ecology projects</a>
-        </div>
+        <h1 class="hero-title" id="hero-title"></h1>
+        <p class="hero-tagline" id="hero-tagline"></p>
+        <div class="hero-meta" id="hero-pills"></div>
+        <div class="hero-actions" id="hero-actions"></div>
       </div>
 
       <aside class="hero-card" aria-label="Snapshot of experience">
-        <h2>Ecology at a glance</h2>
-        <p>
-          Adapt this box to highlight your core ecology profile: habitats you know best, taxa you work with, and how you
-          like to contribute to research or conservation teams.
-        </p>
-        <div class="metrics">
-          <div class="metric">
-            <span class="metric-value">X+</span>
-            <span class="metric-label">Years in ecology / conservation</span>
-          </div>
-          <div class="metric">
-            <span class="metric-value">Y</span>
-            <span class="metric-label">Field seasons completed</span>
-          </div>
-          <div class="metric">
-            <span class="metric-value">Z</span>
-            <span class="metric-label">Projects / surveys contributed to</span>
-          </div>
-        </div>
+        <h2 id="hero-card-title"></h2>
+        <p id="hero-card-text"></p>
+        <div class="metrics" id="hero-metrics"></div>
       </aside>
     </section>
 
-    <!-- ABOUT -->
     <section id="about">
       <div class="section-header">
-        <h2 class="section-title">Profile</h2>
-        <p class="section-subtitle">
-          A short overview of who you are as an ecologist, your main interests, and the types of ecosystems you know best.
-        </p>
+        <h2 class="section-title" id="profile-title"></h2>
+        <p class="section-subtitle" id="profile-subtitle"></p>
       </div>
       <div class="two-column">
-        <div class="prose">
-          <p>
-            Write 2–3 concise paragraphs here. For example: your academic background in ecology or related fields, any
-            professional roles you’ve held, and the main ecological questions or conservation challenges that motivate you.
-          </p>
-          <p>
-            Mention specific ecosystems (e.g. temperate woodlands, freshwater systems, grasslands, urban greenspace), and
-            the taxa you’re most experienced with (e.g. birds, plants, invertebrates, mammals, amphibians).
-          </p>
-          <p>
-            You can also briefly note your strengths: e.g. designing surveys, careful field data collection, GIS analysis,
-            statistical modelling in R/Python, stakeholder engagement, or communicating findings to non‑scientists.
-          </p>
-        </div>
-        <div class="skills-grid">
-          <div class="skills-card">
-            <h3>Field skills</h3>
-            <ul>
-              <li>Habitat mapping & condition assessment</li>
-              <li>Species ID (adapt for your taxa)</li>
-              <li>Standardised survey methods (e.g. point counts, transects)</li>
-              <li>GPS & navigation in the field</li>
-            </ul>
-          </div>
-          <div class="skills-card">
-            <h3>Data & analysis</h3>
-            <ul>
-              <li>Data cleaning & quality control</li>
-              <li>Basic statistics & visualisation</li>
-              <li>R / Python (adapt to what you use)</li>
-              <li>GIS (QGIS / ArcGIS)</li>
-            </ul>
-          </div>
-          <div class="skills-card">
-            <h3>Collaboration</h3>
-            <ul>
-              <li>Working in field teams safely</li>
-              <li>Reporting for decision‑makers</li>
-              <li>Community / stakeholder engagement</li>
-              <li>Mentoring volunteers or students</li>
-            </ul>
-          </div>
-        </div>
+        <div class="prose" id="profile-paragraphs"></div>
+        <div class="skills-grid" id="skill-groups"></div>
       </div>
     </section>
 
-    <!-- EXPERIENCE -->
     <section id="experience">
       <div class="section-header">
-        <h2 class="section-title">Experience</h2>
-        <p class="section-subtitle">
-          Roles, placements, and volunteer work that built your ecology expertise.
-        </p>
+        <h2 class="section-title" id="experience-title"></h2>
+        <p class="section-subtitle" id="experience-subtitle"></p>
       </div>
-      <ul class="list">
-        <li class="list-item">
-          <div class="item-heading">
-            <span class="item-title">Role title · Organisation</span>
-            <span class="item-meta">Location · Dates</span>
-          </div>
-          <p>
-            One or two sentences on what you did: habitats surveyed, survey methods, responsibilities, and any notable
-            outputs (e.g. reports, datasets, recommendations).
-          </p>
-          <div class="item-tags">
-            <span class="tag">Habitat surveys</span>
-            <span class="tag">Bird monitoring</span>
-            <span class="tag">Data entry & QA</span>
-          </div>
-        </li>
-
-        <li class="list-item">
-          <div class="item-heading">
-            <span class="item-title">Role title · Organisation</span>
-            <span class="item-meta">Location · Dates</span>
-          </div>
-          <p>
-            Use more list items like this for other ecology jobs, internships, or long‑term volunteer positions. Emphasise
-            concrete tasks and skills over generic duties.
-          </p>
-          <div class="item-tags">
-            <span class="tag">Freshwater ecology</span>
-            <span class="tag">Macroinvertebrates</span>
-            <span class="tag">Community science</span>
-          </div>
-        </li>
-      </ul>
+      <ul class="list" id="experience-list"></ul>
     </section>
 
-    <!-- PROJECTS -->
     <section id="projects">
       <div class="section-header">
-        <h2 class="section-title">Selected projects</h2>
-        <p class="section-subtitle">
-          3–6 concise case studies that show how you work and what you’ve contributed.
-        </p>
+        <h2 class="section-title" id="projects-title"></h2>
+        <p class="section-subtitle" id="projects-subtitle"></p>
       </div>
-      <ul class="list">
-        <li class="list-item">
-          <div class="item-heading">
-            <span class="item-title">Project name – short description</span>
-            <span class="item-meta">Year · Organisation / partner</span>
-          </div>
-          <p>
-            One paragraph describing the project goal, your role, the methods used, and the main ecological insight
-            or outcome. If there is a public report or GitHub repo, link it here.
-          </p>
-          <div class="item-tags">
-            <span class="tag">Urban biodiversity</span>
-            <span class="tag">GIS analysis</span>
-            <span class="tag">R</span>
-          </div>
-        </li>
-
-        <li class="list-item">
-          <div class="item-heading">
-            <span class="item-title">Another ecology project</span>
-            <span class="item-meta">Year · Habitat / ecosystem</span>
-          </div>
-          <p>
-            Use consistent structure for each case study so visitors can quickly scan what you did and what you learned
-            from each piece of work.
-          </p>
-          <div class="item-tags">
-            <span class="tag">Restoration</span>
-            <span class="tag">Vegetation monitoring</span>
-          </div>
-        </li>
-      </ul>
+      <ul class="list" id="projects-list"></ul>
     </section>
 
-    <!-- PUBLICATIONS -->
     <section id="publications">
       <div class="section-header">
-        <h2 class="section-title">Publications & outputs</h2>
-        <p class="section-subtitle">
-          Papers, reports, posters, or talks related to your ecology work.
-        </p>
+        <h2 class="section-title" id="publications-title"></h2>
+        <p class="section-subtitle" id="publications-subtitle"></p>
       </div>
-      <ul class="list">
-        <li class="list-item">
-          <div class="item-heading">
-            <span class="item-title">Author(s) (Year). Title of article/report.</span>
-            <span class="item-meta">Journal / organisation</span>
-          </div>
-          <p>
-            One‑sentence summary of the ecological question and key finding. Include a link if the document is public.
-          </p>
-        </li>
-        <li class="list-item">
-          <div class="item-heading">
-            <span class="item-title">Talk or poster title</span>
-            <span class="item-meta">Conference or event · Year</span>
-          </div>
-          <p>
-            Briefly describe who the audience was and what you presented.
-          </p>
-        </li>
-      </ul>
+      <ul class="list" id="publications-list"></ul>
     </section>
 
-    <!-- CONTACT -->
     <section id="contact">
       <div class="section-header">
-        <h2 class="section-title">Contact</h2>
-        <p class="section-subtitle">
-          Make it easy for people to reach you about ecology roles, collaborations, or further information.
-        </p>
+        <h2 class="section-title" id="contact-title"></h2>
+        <p class="section-subtitle" id="contact-subtitle"></p>
       </div>
       <div class="contact-grid">
-        <div class="prose">
-          <p>
-            Replace this text with 2–3 sentences about the kind of opportunities you’re interested in (field seasons,
-            research assistant roles, MSc/PhD opportunities, consultancy work, collaborations, etc.).
-          </p>
-          <p>
-            You can also mention when you’re available (e.g. upcoming field seasons) and whether you’re open to remote
-            analysis work, report writing, or occasional travel.
-          </p>
-        </div>
-        <div class="contact-box">
-          <div class="contact-row">
-            <span class="contact-label">Email</span>
-            <!-- Replace with real email -->
-            <a href="mailto:your.email@example.com">your.email@example.com</a>
-          </div>
-          <div class="contact-row">
-            <span class="contact-label">LinkedIn / profile</span>
-            <!-- Replace with real profile -->
-            <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn profile link</a>
-          </div>
-          <div class="contact-row">
-            <span class="contact-label">GitHub / code (optional)</span>
-            <a href="#" target="_blank" rel="noopener noreferrer">GitHub profile or ecology repos</a>
-          </div>
-          <div class="contact-row">
-            <span class="contact-label">Download CV</span>
-            <!-- When you upload a PDF CV to the repo, link it here -->
-            <span>Add a link to your CV PDF once uploaded.</span>
-          </div>
-        </div>
+        <div class="prose" id="contact-paragraphs"></div>
+        <div class="contact-box" id="contact-rows"></div>
       </div>
     </section>
   </main>
 
   <footer>
-    © <span id="year"></span> Diogo Santos · Ecology portfolio
+    <span id="footer-text"></span>
   </footer>
 
   <script>
-    // Update year automatically
-    document.getElementById("year").textContent = new Date().getFullYear();
+    async function loadContent() {
+      const response = await fetch('./content.json');
+      const data = await response.json();
+
+      const setText = (selector, value) => {
+        const el = document.querySelector(selector);
+        if (el) el.textContent = value || '';
+      };
+
+      const renderHTML = (selector, html) => {
+        const el = document.querySelector(selector);
+        if (el) el.innerHTML = html;
+      };
+
+      setText('#brand-text', data.site.brandText);
+      document.title = data.site.title;
+      setText('#hero-title', data.hero.title);
+      setText('#hero-tagline', data.hero.tagline);
+      setText('#hero-card-title', data.hero.card.title);
+      setText('#hero-card-text', data.hero.card.text);
+
+      renderHTML('#nav-links', (data.navigation || []).map(item => `
+        <a href="${item.href}">${item.label}</a>
+      `).join(''));
+
+      renderHTML('#hero-pills', (data.hero.pills || []).map(item => `
+        <span class="pill">${item}</span>
+      `).join(''));
+
+      renderHTML('#hero-actions', (data.hero.actions || []).map(item => `
+        <a href="${item.href}" class="btn ${item.variant === 'primary' ? 'btn-primary' : 'btn-ghost'}">${item.label}</a>
+      `).join(''));
+
+      renderHTML('#hero-metrics', (data.hero.card.metrics || []).map(item => `
+        <div class="metric">
+          <span class="metric-value">${item.value}</span>
+          <span class="metric-label">${item.label}</span>
+        </div>
+      `).join(''));
+
+      const profile = data.sections.profile;
+      setText('#profile-title', profile.title);
+      setText('#profile-subtitle', profile.subtitle);
+      renderHTML('#profile-paragraphs', (profile.paragraphs || []).map(p => `<p>${p}</p>`).join(''));
+      renderHTML('#skill-groups', (profile.skillGroups || []).map(group => `
+        <div class="skills-card">
+          <h3>${group.title}</h3>
+          <ul>
+            ${(group.items || []).map(item => `<li>${item}</li>`).join('')}
+          </ul>
+        </div>
+      `).join(''));
+
+      const renderListItems = (items) => (items || []).map(item => `
+        <li class="list-item">
+          <div class="item-heading">
+            <span class="item-title">${item.title || ''}</span>
+            <span class="item-meta">${item.meta || ''}</span>
+          </div>
+          <p>${item.description || ''}</p>
+          ${item.tags && item.tags.length ? `<div class="item-tags">${item.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</div>` : ''}
+        </li>
+      `).join('');
+
+      const experience = data.sections.experience;
+      setText('#experience-title', experience.title);
+      setText('#experience-subtitle', experience.subtitle);
+      renderHTML('#experience-list', renderListItems(experience.items));
+
+      const projects = data.sections.projects;
+      setText('#projects-title', projects.title);
+      setText('#projects-subtitle', projects.subtitle);
+      renderHTML('#projects-list', renderListItems(projects.items));
+
+      const publications = data.sections.publications;
+      setText('#publications-title', publications.title);
+      setText('#publications-subtitle', publications.subtitle);
+      renderHTML('#publications-list', renderListItems(publications.items));
+
+      const contact = data.sections.contact;
+      setText('#contact-title', contact.title);
+      setText('#contact-subtitle', contact.subtitle);
+      renderHTML('#contact-paragraphs', (contact.paragraphs || []).map(p => `<p>${p}</p>`).join(''));
+      renderHTML('#contact-rows', (contact.rows || []).map(row => `
+        <div class="contact-row">
+          <span class="contact-label">${row.label}</span>
+          ${row.type === 'link'
+              ? `<a href="${row.href}"${row.href && row.href.startsWith('mailto:') ? '' : ' target="_blank" rel="noopener noreferrer"'}>${row.text}</a>`
+              : `<span>${row.text}</span>`}
+        </div>
+      `).join(''));
+
+      const year = new Date().getFullYear();
+      setText('#footer-text', (data.site.footerText || '').replace('{year}', year));
+    }
+
+    loadContent().catch((error) => {
+      console.error('Failed to load content.json', error);
+    });
   </script>
 </body>
 </html>
