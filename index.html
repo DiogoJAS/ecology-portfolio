@@ -137,14 +137,14 @@
       padding: var(--space-8) var(--space-4) var(--space-12);
       display: flex;
       flex-direction: column;
-      gap: var(--space-12);
+      gap: var(--space-16);
     }
 
     .hero {
       display: grid;
       grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.1fr);
-      gap: var(--space-8);
-      align-items: center;
+      gap: var(--space-12);
+      align-items: start;
     }
 
     .hero-title {
@@ -247,12 +247,12 @@
     .metrics {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: var(--space-3);
+      gap: var(--space-4);
       font-size: 0.85rem;
     }
 
     .metric {
-      padding: var(--space-2) var(--space-3);
+      padding: var(--space-3) var(--space-4);
       border-radius: 0.85rem;
       background-color: rgba(251,251,249,0.95);
       border: 1px solid rgba(38,36,31,0.08);
@@ -276,7 +276,7 @@
       background-color: var(--bg-alt);
       border-radius: 1.2rem;
       border: 1px solid var(--border);
-      padding: var(--space-6) var(--space-5);
+      padding: var(--space-8) var(--space-6);
       box-shadow: var(--shadow-sm);
     }
 
@@ -288,8 +288,8 @@
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      gap: var(--space-3);
-      margin-bottom: var(--space-4);
+      gap: var(--space-4);
+      margin-bottom: var(--space-6);
       flex-wrap: wrap;
     }
 
@@ -309,38 +309,43 @@
     .two-column {
       display: grid;
       grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.2fr);
-      gap: var(--space-6);
+      gap: var(--space-8);
     }
 
     .prose {
       font-size: 0.95rem;
       color: var(--text);
+      line-height: 1.8;
     }
 
     .prose p + p {
-      margin-top: var(--space-3);
+      margin-top: var(--space-4);
     }
 
     .list {
       list-style: none;
       display: grid;
-      gap: var(--space-3);
+      gap: var(--space-5);
       font-size: 0.95rem;
     }
 
     .list-item {
-      padding: var(--space-3);
+      padding: var(--space-5);
       border-radius: 0.9rem;
       border: 1px solid rgba(38,36,31,0.08);
       background-color: #faf9f6;
     }
 
+    .list-item p {
+      line-height: 1.8;
+    }
+
     .item-heading {
       display: flex;
       justify-content: space-between;
-      align-items: baseline;
-      gap: var(--space-2);
-      margin-bottom: var(--space-1);
+      align-items: flex-start;
+      gap: var(--space-3);
+      margin-bottom: var(--space-2);
       flex-wrap: wrap;
     }
 
@@ -357,7 +362,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: var(--space-2);
-      margin-top: var(--space-2);
+      margin-top: var(--space-3);
       font-size: 0.8rem;
     }
 
@@ -372,21 +377,22 @@
     .skills-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: var(--space-3);
+      gap: var(--space-5);
       font-size: 0.9rem;
     }
 
     .skills-card {
-      padding: var(--space-3);
+      padding: var(--space-5);
       border-radius: 0.9rem;
       background-color: #faf9f6;
       border: 1px solid rgba(38,36,31,0.08);
+      line-height: 1.8;
     }
 
     .skills-card h3 {
       font-size: 0.95rem;
       font-weight: 600;
-      margin-bottom: var(--space-2);
+      margin-bottom: var(--space-3);
     }
 
     .skills-card ul {
@@ -403,18 +409,19 @@
     .contact-grid {
       display: grid;
       grid-template-columns: minmax(0, 1.4fr) minmax(0, 1.1fr);
-      gap: var(--space-6);
-      align-items: center;
+      gap: var(--space-8);
+      align-items: start;
     }
 
     .contact-box {
-      padding: var(--space-4);
+      padding: var(--space-5);
       border-radius: 1rem;
       background-color: #faf9f6;
       border: 1px solid rgba(38,36,31,0.12);
       display: grid;
-      gap: var(--space-3);
+      gap: var(--space-4);
       font-size: 0.95rem;
+      line-height: 1.8;
     }
 
     .contact-row {
@@ -455,10 +462,11 @@
 
       main {
         padding-block: var(--space-6);
+        gap: var(--space-10);
       }
 
       section {
-        padding: var(--space-5) var(--space-4);
+        padding: var(--space-6) var(--space-4);
       }
 
       .metrics {
