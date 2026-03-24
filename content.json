@@ -134,7 +134,7 @@
     "projects": {
       "id": "projects",
       "title": "Selected projects",
-      "subtitle": "Case studies and contributions.",
+      "subtitle": "",
       "items": [
         {
           "title": "Project name – short description",
