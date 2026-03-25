@@ -120,24 +120,64 @@
       "id": "taxonomy",
       "title": "Competency 1: need for taxonomy and species identification",
       "subtitle": "Show that you understand why taxonomy and accurate identification matter in ecology and conservation.",
-      "lead": "This section should explain importance, not just definitions.",
+      "lead": "This section now reads as a complete coursework response rather than a prompt, and it can sit in the portfolio as a full draft for Competency 1.",
       "blocks": [
         {
-          "title": "What to include",
-          "type": "list",
+          "title": "Competency statement",
+          "type": "paragraphs",
           "items": [
-            "Why accurate identification matters for ecological survey, monitoring, habitat management, recording, and conservation decision-making.",
-            "Examples from course activities where identification affected interpretation of habitats, communities, or sampling outputs.",
-            "Your own reflection on how practical identification changed your understanding of taxonomy from something theoretical into a field skill."
+            "Taxonomy and species identification are fundamental to ecology because ecological interpretation depends on knowing which organisms are present and how reliably they have been distinguished from similar taxa. Without accurate identification, records become less useful, monitoring results can be misleading, and management decisions may be based on incorrect assumptions about biodiversity value or ecological condition.",
+            "Through this module I have come to understand taxonomy not simply as a naming system, but as the framework that allows ecological observations to become meaningful evidence. Identification links field observation to data quality, conservation action, legal protection, and communication with other practitioners.",
+            "This competency therefore requires more than memorising names. It requires understanding why identification standards matter, recognising uncertainty, and selecting evidence and resources that justify an identification clearly and professionally."
           ]
         },
         {
-          "title": "Possible evidence",
+          "title": "Why taxonomy matters in ecological practice",
           "type": "list",
           "items": [
-            "Annotated notes from class or field sessions.",
-            "Photographs paired with short explanations of diagnostic characters.",
-            "Short reflective paragraphs comparing confidence before and after practice."
+            "Taxonomy provides the structure that allows organisms to be grouped, compared, and discussed consistently across surveys, reports, and datasets.",
+            "Species identification underpins ecological survey because habitat assessment, community interpretation, and species records all depend on recognising organisms correctly.",
+            "Reliable identification supports conservation decision-making, especially where protected, invasive, rare, or indicator species alter the significance of a site.",
+            "Accurate naming improves the value of records submitted to wider data systems, because poor identification weakens the quality of biodiversity evidence available to other users.",
+            "Identification skill also supports communication between ecologists, land managers, recorders, and statutory bodies by providing a common technical language."
+          ]
+        },
+        {
+          "title": "Applied examples from ecological work",
+          "type": "paragraphs",
+          "items": [
+            "In field ecology, the need for accurate identification becomes obvious very quickly. A vegetation survey is only useful when the recorder can separate similar plant species and recognise which species are actually characteristic of the habitat being assessed. In the same way, invertebrate or vertebrate observations only become meaningful when the observer can justify why a record belongs to one taxon rather than another.",
+            "This matters because ecological conclusions often depend on comparatively small differences. Misidentifying a species could affect habitat condition assessment, produce false distribution data, or lead to overconfidence in a record that should have remained provisional. I now see identification as a core evidence skill rather than a background task.",
+            "The module has also shown me that taxonomy is directly connected to practical workflow. The process starts before the name is assigned: observing the specimen carefully, selecting useful characters, checking the right resource, considering confusion species, and only then arriving at a defensible conclusion."
+          ]
+        },
+        {
+          "title": "My developing understanding",
+          "type": "paragraphs",
+          "items": [
+            "At the start of the module I understood species identification in a fairly general sense, but I had not fully appreciated how much discipline it requires. I initially thought the main challenge was remembering characteristics, whereas in practice the more difficult task is learning to observe systematically and to justify why a character is diagnostic rather than simply noticeable.",
+            "As I gained more experience, I became more aware of uncertainty. This has been an important shift in my thinking. Competent identification is not pretending to know more than I do; it is being able to recognise when evidence is strong, when an identification should remain tentative, and when further checking is required using another specimen feature, another image, or a better key.",
+            "This change in approach has made me more careful and more reflective. I now understand that good identification is inseparable from good note-taking, image quality, and the honest reporting of confidence level."
+          ]
+        },
+        {
+          "title": "Evidence I should include on this page",
+          "type": "list",
+          "items": [
+            "Annotated field or lab photographs showing the characters used to separate taxa.",
+            "Short case examples where identification affected ecological interpretation or record quality.",
+            "Notes showing which keys, guides, or digital resources were consulted.",
+            "Examples of uncertainty, including confusion species and how the final conclusion was reached or left open.",
+            "A brief reflective commentary in my own voice explaining what improved through practice."
+          ]
+        },
+        {
+          "title": "Reflection",
+          "type": "paragraphs",
+          "items": [
+            "The main insight I have gained from Competency 1 is that taxonomy gives structure to ecological knowledge, while identification turns that structure into usable evidence. Before carrying out identification tasks myself, I underestimated how much judgement is involved in moving from observation to conclusion.",
+            "I have also learned that confidence should be earned rather than assumed. The strongest identifications are the ones that can be explained clearly with reference to observed characters and appropriate resources. This is the standard I need to keep developing in the later competency sections of the portfolio.",
+            "Going forward, I want to improve my speed without lowering my standard of evidence. At present I am becoming more methodical, but I still need more repetition across different taxa so that careful identification becomes both accurate and efficient under field conditions."
           ]
         }
       ]
@@ -146,23 +186,75 @@
       "id": "handling",
       "title": "Competency 2: specimen handling and curation",
       "subtitle": "Document how specimens were handled, preserved, labelled, mounted, stored, or photographed.",
-      "lead": "Use precise technical language and show process clearly.",
+      "lead": "This section now reads as a complete coursework response for Competency 2 and is ready to be supported with your own specimen images, notes, and examples of technique.",
       "blocks": [
         {
-          "title": "What to evidence",
-          "type": "list",
+          "title": "Competency statement",
+          "type": "paragraphs",
           "items": [
-            "Safe and appropriate handling methods for the material you worked with.",
-            "Labelling, storage, point mounting, pinning, photography, or other curation practices used in the course.",
-            "Any mistakes, contamination risks, or quality issues you noticed and how you addressed them."
+            "Specimen handling and curation are essential parts of identification because the quality of the specimen, image, or preserved material directly affects how confidently diagnostic characters can be observed. Even strong taxonomic knowledge is less useful if the specimen has been damaged, stored poorly, labelled inadequately, or presented without enough supporting information.",
+            "Through this module I have understood that handling and curation are not separate from identification. They are part of the same chain of evidence. Good practice allows later checking, comparison, and justification, while poor practice can remove or obscure the very characters needed to make a reliable identification.",
+            "For this reason, specimen handling should be approached as a technical skill that requires care, consistency, and attention to detail rather than as a minor preparation step."
           ]
         },
         {
-          "title": "Reflection prompts",
+          "title": "Why handling and curation matter",
+          "type": "list",
+          "items": [
+            "They protect important morphological characters from damage during collection, transport, observation, and storage.",
+            "They make later re-examination possible, which is especially important when confidence is low or when verification by another person is needed.",
+            "They improve traceability by connecting the specimen or image to date, location, habitat, and collection context.",
+            "They support professional standards because a well-presented specimen or evidence record is easier to interpret and defend.",
+            "They encourage a more disciplined approach to observation, labelling, and note-taking."
+          ]
+        },
+        {
+          "title": "What I have learned in practice",
           "type": "paragraphs",
           "items": [
-            "Explain what good specimen handling means in practice and how technique affects later identification reliability.",
-            "State where your confidence is strongest and where more repetition or supervision would improve your standard."
+            "My understanding of specimen handling has become much more practical through experience. At first, I mainly thought about getting a specimen or image quickly enough to identify it. As I worked through activities, I became more aware that how the material is handled from the beginning affects everything that follows, including visibility of characters, confidence of identification, and whether the evidence is useful to someone else.",
+            "I have learned that careful handling involves slowing down and thinking about the condition of the material before trying to name it. This includes considering whether the specimen is intact, whether key features are visible, whether it needs to be positioned differently for photography or examination, and whether enough contextual information has been recorded alongside it.",
+            "I also now recognise that curation is part of communication. A well-labelled and well-presented specimen, image set, or record makes the reasoning behind an identification much clearer to another reader or assessor."
+          ]
+        },
+        {
+          "title": "Good practice to demonstrate",
+          "type": "list",
+          "items": [
+            "Clear labelling with date, location, habitat, and any other relevant collection details.",
+            "Careful positioning or mounting so important structures can be seen clearly.",
+            "Photography that captures more than one view where a single angle is not enough.",
+            "Storage or preservation choices that reduce damage and maintain useful features.",
+            "Consistent recording of observations so that the specimen can still be interpreted later."
+          ]
+        },
+        {
+          "title": "Difficulties and limitations",
+          "type": "paragraphs",
+          "items": [
+            "One of the main challenges is that good handling requires both technical knowledge and patience. It is easy to focus too quickly on naming the organism and not enough on the preparation and presentation of the evidence. This can lead to missing structures, low-quality photographs, incomplete labels, or uncertainty that could have been reduced earlier in the process.",
+            "Another difficulty is that different taxa and specimen sizes require different handling approaches. A method that works for a larger or more robust specimen may not be suitable for delicate or very small material. This means technique needs to be adapted rather than applied automatically.",
+            "I am still developing confidence in knowing when my evidence is strong enough and when I need to improve the image, reposition the material, or record more contextual information before treating the identification as secure."
+          ]
+        },
+        {
+          "title": "Evidence I should include on this page",
+          "type": "list",
+          "items": [
+            "Images showing the specimen before, during, or after handling or preparation.",
+            "Examples of labels, storage notes, or collection records.",
+            "Photographs that show why one view was insufficient and why extra views were needed.",
+            "Short commentary explaining how handling affected identification quality.",
+            "A reflective note on what I would now do differently after gaining more experience."
+          ]
+        },
+        {
+          "title": "Reflection",
+          "type": "paragraphs",
+          "items": [
+            "The main lesson I have taken from Competency 2 is that specimen handling and curation are evidence skills as much as technical tasks. They determine whether identification can be checked, explained, and trusted.",
+            "This has made me more aware of how professional ecological work depends not only on recognising species, but also on presenting observations in a way that retains their scientific value. Careful handling is therefore part of producing credible ecological evidence.",
+            "Going forward, I need more repetition so that good handling practice becomes automatic. I want to improve my consistency in labelling, image planning, and the presentation of material so that my later identification work is stronger and easier to defend."
           ]
         }
       ]
