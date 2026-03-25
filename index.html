@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CW1 Competency Portfolio – Diogo Santos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f7f6f2;
+      --bg-alt: #fbfbf9;
+      --text: #26241f;
+      --text-muted: #686660;
+      --accent: #01696f;
+      --accent-soft: #cedcd8;
+      --border: #d6d3ce;
+      --radius: 0.75rem;
+      --space-1: 0.25rem;
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-6: 1.5rem;
+      --space-8: 2rem;
+      --space-12: 3rem;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+      --shadow-md: 0 8px 24px rgba(0,0,0,0.06);
+      --max-width: 960px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Work Sans", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text);
+      background: radial-gradient(circle at top left, #e3f2ed 0, #f7f6f2 40%, #f7f6f2 100%);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      background-color: rgba(247,246,242,0.9);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .nav {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: var(--space-3) var(--space-4);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+    }
+
+    .logo-mark {
+      width: 32px;
+      height: 32px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 20%, #e9f6f1 0, #3f8d76 45%, #015a5f 100%);
+      box-shadow: var(--shadow-sm);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .logo-mark::after {
+      content: "";
+      position: absolute;
+      inset: 35% 25% 10% 25%;
+      background: linear-gradient(to top, #295737, #9acb83);
+      border-radius: 50% 50% 45% 45%;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: var(--space-3);
+      font-size: 0.9rem;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .nav-links a {
+      padding: 0.25rem 0.5rem;
+      border-radius: 999px;
+      color: var(--text-muted);
+    }
+
+    .nav-links a:hover {
+      background-color: rgba(1,105,111,0.08);
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: var(--space-8) var(--space-4) var(--space-12);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-12);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.1fr);
+      gap: var(--space-8);
+      align-items: center;
+    }
+
+    .hero-title {
+      font-family: "DM Serif Display", Georgia, "Times New Roman", serif;
+      font-size: clamp(2.4rem, 3.2vw + 1rem, 3.4rem);
+      line-height: 1.1;
+      margin-bottom: var(--space-3);
+    }
+
+    .hero-tagline {
+      font-size: 1rem;
+      color: var(--text-muted);
+      max-width: 40rem;
+      margin-bottom: var(--space-4);
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      margin-bottom: var(--space-4);
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .pill {
+      border-radius: 999px;
+      border: 1px solid rgba(38,36,31,0.15);
+      padding: 0.25rem 0.75rem;
+      background: rgba(251,251,249,0.9);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      align-items: center;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-2);
+      padding: 0.55rem 1.15rem;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      font-size: 0.95rem;
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.18s ease, color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #01696f, #0b4e54);
+      color: #f8faf9;
+      box-shadow: var(--shadow-md);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.16);
+      text-decoration: none;
+    }
+
+    .btn-ghost {
+      border-color: rgba(1,105,111,0.25);
+      color: var(--accent);
+      background-color: rgba(251,251,249,0.9);
+    }
+
+    .btn-ghost:hover {
+      background-color: rgba(1,105,111,0.06);
+      text-decoration: none;
+    }
+
+    .hero-card {
+      border-radius: 1.1rem;
+      padding: var(--space-4);
+      background: linear-gradient(135deg, rgba(1,105,111,0.1), rgba(247,246,242,0.98));
+      border: 1px solid rgba(1,105,111,0.2);
+      box-shadow: var(--shadow-md);
+    }
+
+    .hero-card h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+      margin-bottom: var(--space-2);
+    }
+
+    .hero-card p {
+      font-size: 0.95rem;
+      color: var(--text);
+      margin-bottom: var(--space-3);
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--space-3);
+      font-size: 0.85rem;
+    }
+
+    .metric {
+      padding: var(--space-2) var(--space-3);
+      border-radius: 0.85rem;
+      background-color: rgba(251,251,249,0.95);
+      border: 1px solid rgba(38,36,31,0.08);
+    }
+
+    .metric span {
+      display: block;
+    }
+
+    .metric-value {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .metric-label {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+    }
+
+    section {
+      background-color: var(--bg-alt);
+      border-radius: 1.2rem;
+      border: 1px solid var(--border);
+      padding: var(--space-6) var(--space-5);
+      box-shadow: var(--shadow-sm);
+    }
+
+    section + section {
+      margin-top: var(--space-2);
+    }
+
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: var(--space-3);
+      margin-bottom: var(--space-4);
+      flex-wrap: wrap;
+    }
+
+    .section-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .section-subtitle {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      max-width: 28rem;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.2fr);
+      gap: var(--space-6);
+    }
+
+    .prose {
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+
+    .prose p + p {
+      margin-top: var(--space-3);
+    }
+
+    .list {
+      list-style: none;
+      display: grid;
+      gap: var(--space-3);
+      font-size: 0.95rem;
+    }
+
+    .list-item {
+      padding: var(--space-3);
+      border-radius: 0.9rem;
+      border: 1px solid rgba(38,36,31,0.08);
+      background-color: #faf9f6;
+    }
+
+    .item-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: var(--space-2);
+      margin-bottom: var(--space-1);
+      flex-wrap: wrap;
+    }
+
+    .item-title {
+      font-weight: 600;
+    }
+
+    .item-meta {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .item-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin-top: var(--space-2);
+      font-size: 0.8rem;
+    }
+
+    .tag {
+      border-radius: 999px;
+      padding: 0.1rem 0.55rem;
+      background-color: var(--accent-soft);
+      color: #0b3735;
+      font-weight: 500;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: var(--space-3);
+      font-size: 0.9rem;
+    }
+
+    .skills-card {
+      padding: var(--space-3);
+      border-radius: 0.9rem;
+      background-color: #faf9f6;
+      border: 1px solid rgba(38,36,31,0.08);
+    }
+
+    .skills-card h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: var(--space-2);
+    }
+
+    .skills-card ul {
+      list-style: none;
+      display: grid;
+      gap: 0.25rem;
+    }
+
+    .skills-card li::before {
+      content: "• ";
+      color: var(--accent);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1.1fr);
+      gap: var(--space-6);
+      align-items: center;
+    }
+
+    .contact-box {
+      padding: var(--space-4);
+      border-radius: 1rem;
+      background-color: #faf9f6;
+      border: 1px solid rgba(38,36,31,0.12);
+      display: grid;
+      gap: var(--space-3);
+      font-size: 0.95rem;
+    }
+
+    .contact-row {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .contact-label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: var(--space-4);
+      font-size: 0.8rem;
+      text-align: center;
+      color: var(--text-muted);
+      background-color: rgba(247,246,242,0.95);
+    }
+
+    @media (max-width: 900px) {
+      .hero,
+      .two-column,
+      .contact-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    @media (max-width: 640px) {
+      .nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      main {
+        padding-block: var(--space-6);
+      }
+
+      section {
+        padding: var(--space-5) var(--space-4);
+      }
+
+      .metrics {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 420px) {
+      .metrics {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .btn {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  </style>
+  
+<style>
+  .section-stack {
+    display: grid;
+    gap: var(--space-6);
+  }
+  .subsection {
+    padding: var(--space-5);
+    border-radius: 1rem;
+    background-color: #faf9f6;
+    border: 1px solid rgba(38,36,31,0.08);
+    display: grid;
+    gap: var(--space-3);
+  }
+  .subsection h3 {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .subsection p,
+  .subsection li {
+    line-height: 1.8;
+    overflow-wrap: anywhere;
+  }
+  .subsection ul {
+    list-style: none;
+    display: grid;
+    gap: var(--space-2);
+  }
+  .subsection ul li::before {
+    content: "• ";
+    color: var(--accent);
+  }
+  .section-lead {
+    margin-bottom: var(--space-4);
+  }
+</style>
+
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="logo">
+        <div class="logo-mark" aria-hidden="true"></div>
+        <span id="brand-text"></span>
+      </div>
+      <nav class="nav-links" aria-label="Primary navigation" id="nav-links"></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top" aria-label="Introduction">
+      <div>
+        <h1 class="hero-title" id="hero-title"></h1>
+        <p class="hero-tagline" id="hero-tagline"></p>
+        <div class="hero-meta" id="hero-pills"></div>
+        <div class="hero-actions" id="hero-actions"></div>
+      </div>
+      <aside class="hero-card" aria-label="Coursework summary">
+        <h2 id="hero-card-title"></h2>
+        <p id="hero-card-text"></p>
+        <div class="metrics" id="hero-metrics"></div>
+      </aside>
+    </section>
+
+    <div id="dynamic-sections"></div>
+  </main>
+
+  <footer><span id="footer-text"></span></footer>
+
+  <script>
+    async function loadContent() {
+      const response = await fetch('./cw1-portfolio-content.json?v=' + Date.now(), { cache: 'no-cache' });
+      const data = await response.json();
+
+      const setText = (selector, value) => {
+        const el = document.querySelector(selector);
+        if (el) el.textContent = value || '';
+      };
+
+      const renderHTML = (selector, html) => {
+        const el = document.querySelector(selector);
+        if (el) el.innerHTML = html;
+      };
+
+      const escapeHTML = (value = '') => value
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;');
+
+      const renderBlock = (block) => {
+        const items = Array.isArray(block.items) ? block.items : [];
+        if (block.type === 'paragraphs') {
+          return `
+            <div class="subsection">
+              <h3>${escapeHTML(block.title || '')}</h3>
+              ${items.map(item => `<p>${escapeHTML(item)}</p>`).join('')}
+            </div>`;
+        }
+        return `
+          <div class="subsection">
+            <h3>${escapeHTML(block.title || '')}</h3>
+            <ul>
+              ${items.map(item => `<li>${escapeHTML(item)}</li>`).join('')}
+            </ul>
+          </div>`;
+      };
+
+      document.title = data.site.title;
+      setText('#brand-text', data.site.brandText);
+      setText('#hero-title', data.hero.title);
+      setText('#hero-tagline', data.hero.tagline);
+      setText('#hero-card-title', data.hero.card.title);
+      setText('#hero-card-text', data.hero.card.text);
+      setText('#footer-text', (data.site.footerText || '').replace('{year}', new Date().getFullYear()));
+
+      renderHTML('#nav-links', (data.navigation || []).map(item => `<a href="${item.href}">${escapeHTML(item.label)}</a>`).join(''));
+      renderHTML('#hero-pills', (data.hero.pills || []).map(item => `<span class="pill">${escapeHTML(item)}</span>`).join(''));
+      renderHTML('#hero-actions', (data.hero.actions || []).map(item => `<a href="${item.href}" class="btn ${item.variant === 'primary' ? 'btn-primary' : 'btn-ghost'}">${escapeHTML(item.label)}</a>`).join(''));
+      renderHTML('#hero-metrics', (data.hero.card.metrics || []).map(item => `
+        <div class="metric">
+          <span class="metric-value">${escapeHTML(item.value || '')}</span>
+          <span class="metric-label">${escapeHTML(item.label || '')}</span>
+        </div>`).join(''));
+
+      const sectionsHTML = (data.sections || []).map(section => `
+        <section id="${section.id}">
+          <div class="section-header">
+            <h2 class="section-title">${escapeHTML(section.title || '')}</h2>
+            <p class="section-subtitle">${escapeHTML(section.subtitle || '')}</p>
+          </div>
+          ${section.lead ? `<p class="prose section-lead">${escapeHTML(section.lead)}</p>` : ''}
+          <div class="section-stack">
+            ${(section.blocks || []).map(renderBlock).join('')}
+          </div>
+        </section>`).join('');
+
+      renderHTML('#dynamic-sections', sectionsHTML);
+    }
+
+    loadContent().catch((error) => {
+      console.error('Failed to load portfolio content', error);
+    });
+  </script>
+</body>
+</html>

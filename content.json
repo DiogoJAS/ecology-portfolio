@@ -1,0 +1,361 @@
+{
+  "site": {
+    "title": "CW1 Competency Portfolio – Diogo Santos",
+    "brandText": "CW1 · Competency Portfolio",
+    "footerText": "© {year} Diogo Santos · CW1 competency portfolio"
+  },
+  "navigation": [
+    {
+      "label": "Overview",
+      "href": "#overview"
+    },
+    {
+      "label": "Taxonomy",
+      "href": "#taxonomy"
+    },
+    {
+      "label": "Handling",
+      "href": "#handling"
+    },
+    {
+      "label": "Taxa",
+      "href": "#taxa"
+    },
+    {
+      "label": "Sampling",
+      "href": "#sampling"
+    },
+    {
+      "label": "Engagement",
+      "href": "#engagement"
+    },
+    {
+      "label": "Tools",
+      "href": "#tools"
+    },
+    {
+      "label": "iRecord",
+      "href": "#irecord"
+    },
+    {
+      "label": "Checklist",
+      "href": "#checklist"
+    }
+  ],
+  "hero": {
+    "title": "CW1 e-portfolio: creating an evidence-based approach to identification",
+    "tagline": "This site is structured around the coursework brief so that each required competency area has its own evidence, reflection, and supporting material.",
+    "pills": [
+      "Website submission",
+      "Evidence-led structure",
+      "British English and Harvard references"
+    ],
+    "actions": [
+      {
+        "label": "View required competencies",
+        "href": "#taxonomy",
+        "variant": "primary"
+      },
+      {
+        "label": "Check evidence format",
+        "href": "#evidence-model",
+        "variant": "ghost"
+      }
+    ],
+    "card": {
+      "title": "What this portfolio needs to prove",
+      "text": "Use each section to show what you did, how you identified material, which tools or resources you used, and what you learned through reflection. Replace the prompts with your own notes, annotated images, records, and references.",
+      "metrics": [
+        {
+          "value": "5",
+          "label": "Core competency areas to evidence"
+        },
+        {
+          "value": "4–5",
+          "label": "External engagement examples preferred"
+        },
+        {
+          "value": "3",
+          "label": "Evidence parts: context, activity, reflection"
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Aims and purpose",
+      "subtitle": "Use this opening section to explain what the coursework is for and how the site is organised.",
+      "lead": "The portfolio should function as evidence of identification competency rather than as a generic career website.",
+      "blocks": [
+        {
+          "title": "Course aims",
+          "type": "list",
+          "items": [
+            "Show understanding of the diversity of organisms being examined in the UK.",
+            "Create a useful resource for future work in ecology and conservation, initially focused on UK and EU contexts.",
+            "Develop links with people and organisations that can support progress as a proficient identifier and field ecologist."
+          ]
+        },
+        {
+          "title": "How to frame the site",
+          "type": "paragraphs",
+          "items": [
+            "Introduce your approach to learning identification, the taxonomic groups you have worked on, and the types of evidence you have gathered across the module.",
+            "Make clear that each later section combines practical evidence with reflective writing so that the marker can see both what you did and what you learned."
+          ]
+        },
+        {
+          "title": "Evidence model",
+          "type": "list",
+          "items": [
+            "Context: where the activity happened, why it was done, and which taxa or habitats were involved.",
+            "Activity: the process, methods, images, notes, or records that show you carrying out the work.",
+            "Reflection: what you learned, where uncertainty remained, and what you would improve with further practice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taxonomy",
+      "title": "Competency 1: need for taxonomy and species identification",
+      "subtitle": "Show that you understand why taxonomy and accurate identification matter in ecology and conservation.",
+      "lead": "This section should explain importance, not just definitions.",
+      "blocks": [
+        {
+          "title": "What to include",
+          "type": "list",
+          "items": [
+            "Why accurate identification matters for ecological survey, monitoring, habitat management, recording, and conservation decision-making.",
+            "Examples from course activities where identification affected interpretation of habitats, communities, or sampling outputs.",
+            "Your own reflection on how practical identification changed your understanding of taxonomy from something theoretical into a field skill."
+          ]
+        },
+        {
+          "title": "Possible evidence",
+          "type": "list",
+          "items": [
+            "Annotated notes from class or field sessions.",
+            "Photographs paired with short explanations of diagnostic characters.",
+            "Short reflective paragraphs comparing confidence before and after practice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "handling",
+      "title": "Competency 2: specimen handling and curation",
+      "subtitle": "Document how specimens were handled, preserved, labelled, mounted, stored, or photographed.",
+      "lead": "Use precise technical language and show process clearly.",
+      "blocks": [
+        {
+          "title": "What to evidence",
+          "type": "list",
+          "items": [
+            "Safe and appropriate handling methods for the material you worked with.",
+            "Labelling, storage, point mounting, pinning, photography, or other curation practices used in the course.",
+            "Any mistakes, contamination risks, or quality issues you noticed and how you addressed them."
+          ]
+        },
+        {
+          "title": "Reflection prompts",
+          "type": "paragraphs",
+          "items": [
+            "Explain what good specimen handling means in practice and how technique affects later identification reliability.",
+            "State where your confidence is strongest and where more repetition or supervision would improve your standard."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taxa",
+      "title": "Competency 3: taxa identification",
+      "subtitle": "Split this into plants, invertebrates, and vertebrates so the marker can see coverage clearly.",
+      "lead": "Each taxonomic group should have its own evidence and reflections.",
+      "blocks": [
+        {
+          "title": "Plants",
+          "type": "list",
+          "items": [
+            "Use more than one image where needed to show leaves, flowers, fruits, stems, or growth form.",
+            "State the characters used and the key, guide, or resource consulted.",
+            "Add reflection on confusion species, field conditions, and confidence level."
+          ]
+        },
+        {
+          "title": "Invertebrates",
+          "type": "list",
+          "items": [
+            "Show close-up imagery or labelled drawings where diagnostic structures are small.",
+            "Explain the characters used rather than only naming them.",
+            "Reflect on the limits of field identification versus lab-based checking."
+          ]
+        },
+        {
+          "title": "Vertebrates",
+          "type": "list",
+          "items": [
+            "Use field marks, behaviour, call, habitat, or silhouette where relevant.",
+            "Show how you separated similar species and what evidence supported the final identification.",
+            "Reflect on uncertainty and how you would confirm records in future."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sampling",
+      "title": "Competency 4: sampling and rapid assessment techniques",
+      "subtitle": "Focus on methods where identification was part of the workflow under real field conditions.",
+      "lead": "This section should connect method and identification, not treat them separately.",
+      "blocks": [
+        {
+          "title": "Methods to cover",
+          "type": "list",
+          "items": [
+            "Quadrats, transects, sweep netting, kick sampling, point counts, or any rapid assessment activities used on the course.",
+            "What you had to identify on the spot and what was checked afterwards.",
+            "How time pressure, weather, lighting, or specimen condition affected accuracy."
+          ]
+        },
+        {
+          "title": "Reflection prompts",
+          "type": "list",
+          "items": [
+            "Explain what became easier with repetition.",
+            "Describe where speed reduced confidence and how you handled that.",
+            "Identify the next skill or taxon that needs more practice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engagement",
+      "title": "Competency 5: wider community engagement",
+      "subtitle": "Include evidence of continued professional development and engagement beyond core practicals.",
+      "lead": "Aim for four to five examples if possible.",
+      "blocks": [
+        {
+          "title": "Suitable examples",
+          "type": "list",
+          "items": [
+            "Courses or online training.",
+            "Recording scheme days or local recorder events.",
+            "Society field days, workshops, or museum sessions.",
+            "Volunteering with organisations carrying out ecological work.",
+            "Seminars or presentations with a clear taxa identification or sampling element."
+          ]
+        },
+        {
+          "title": "How to write each example",
+          "type": "paragraphs",
+          "items": [
+            "State what the activity was, what you were exposed to or required to do, and why it was relevant to your own development as an identifier.",
+            "Include at least one reflective point on the merit of the activity relative to your interests, confidence, or future plans."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Tools and strategies for identification",
+      "subtitle": "Show the tools you used and critique them briefly instead of just listing them.",
+      "lead": "Treat this as a working resource section for future field practice.",
+      "blocks": [
+        {
+          "title": "Locating species",
+          "type": "list",
+          "items": [
+            "Explain how you used NBN Atlas and GBIF to plan where species might be found and to understand distribution patterns.",
+            "Show screenshots or notes demonstrating how range data informed your search strategy."
+          ]
+        },
+        {
+          "title": "Tools of the trade",
+          "type": "list",
+          "items": [
+            "Taxonomic keys.",
+            "Guide books.",
+            "Apps.",
+            "Online identification resources.",
+            "Hand lenses, microscopes, or museum collections where relevant."
+          ]
+        },
+        {
+          "title": "What to say about each tool",
+          "type": "list",
+          "items": [
+            "How you used it.",
+            "What it was good at.",
+            "Its limitations or situations where it was less reliable.",
+            "Whether you would use it again for the same taxon."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irecord",
+      "title": "iRecord activity",
+      "subtitle": "Include evidence that you practised biological recording using iRecord.",
+      "lead": "This should be visible as its own required section.",
+      "blocks": [
+        {
+          "title": "What to include",
+          "type": "list",
+          "items": [
+            "Screenshots or examples of records submitted.",
+            "Location and species information where appropriate.",
+            "Images or notes used to support the record.",
+            "Reflection on what you learned about record quality and verification."
+          ]
+        },
+        {
+          "title": "Why it matters",
+          "type": "paragraphs",
+          "items": [
+            "Explain how recording practice links identification skill to real biodiversity data use in the UK.",
+            "You can also note how iRecord fits with NBN and wider biological recording workflows."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "checklist",
+      "title": "Format and rubric checklist",
+      "subtitle": "Use this final section as a build checklist before submission.",
+      "lead": "Keep this visible while you populate the rest of the site.",
+      "blocks": [
+        {
+          "title": "Formatting rules",
+          "type": "list",
+          "items": [
+            "Submitted via a website.",
+            "Readable font and layout.",
+            "References in Harvard style where needed.",
+            "Professional tone, British English, and careful proofreading."
+          ]
+        },
+        {
+          "title": "Rubric priorities",
+          "type": "list",
+          "items": [
+            "Completeness: all requested elements covered.",
+            "Presentation and creativity: accessible, easy to navigate, clearly structured.",
+            "Insights and reflection: clear personal voice and reflective depth.",
+            "Evidence: convincing and difficult to dispute.",
+            "Style: domain-specific vocabulary, strong signposting, and readable writing."
+          ]
+        },
+        {
+          "title": "Before you submit",
+          "type": "list",
+          "items": [
+            "Make sure each page or section starts with a short explanation of purpose.",
+            "Do not leave galleries of images without interpretation.",
+            "Label images or figures where they are being used to prove identification points.",
+            "Make sure an independent reader can follow the narrative and understand why each piece of evidence matters."
+          ]
+        }
+      ]
+    }
+  ]
+}
