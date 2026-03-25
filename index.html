@@ -550,7 +550,7 @@
 
   <script>
     async function loadContent() {
-      const response = await fetch('./cw1-portfolio-content.json?v=' + Date.now(), { cache: 'no-cache' });
+      const response = await fetch('./content.json?v=' + Date.now(), { cache: 'no-cache' });
       const data = await response.json();
 
       const setText = (selector, value) => {
