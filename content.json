@@ -1,0 +1,508 @@
+{
+  "site": {
+    "title": "CW1 Competency Portfolio – Diogo Santos",
+    "brandText": "Diogo Santos · CW1 Portfolio",
+    "footerText": "© {year} Diogo Santos · CW1 competency portfolio"
+  },
+  "navigation": [
+    {
+      "label": "Overview",
+      "href": "#overview"
+    },
+    {
+      "label": "Taxonomy",
+      "href": "#taxonomy"
+    },
+    {
+      "label": "Handling",
+      "href": "#handling"
+    },
+    {
+      "label": "Taxa",
+      "href": "#taxa"
+    },
+    {
+      "label": "Sampling",
+      "href": "#sampling"
+    },
+    {
+      "label": "Engagement",
+      "href": "#engagement"
+    },
+    {
+      "label": "Tools",
+      "href": "#tools"
+    },
+    {
+      "label": "iRecord",
+      "href": "#irecord"
+    },
+    {
+      "label": "Checklist",
+      "href": "#checklist"
+    }
+  ],
+  "hero": {
+    "title": "CW1 e-portfolio: my evidence-based approach to species identification",
+    "tagline": "I have structured this site around the coursework brief so that each required competency is supported with evidence, reflection, and examples from my own developing practice.",
+    "pills": [
+      "Website submission",
+      "Evidence and reflection",
+      "UK-focused identification work"
+    ],
+    "actions": [
+      {
+        "label": "Go to competencies",
+        "href": "#taxonomy",
+        "variant": "primary"
+      },
+      {
+        "label": "See the evidence model",
+        "href": "#overview",
+        "variant": "ghost"
+      }
+    ],
+    "card": {
+      "title": "How I am using this portfolio",
+      "text": "I am using this portfolio to show how my identification skills have developed across the module. In each section I have tried to explain what I did, what evidence I gathered, which resources I used, and what I learned from the process.",
+      "metrics": [
+        {
+          "value": "5",
+          "label": "Core competency areas"
+        },
+        {
+          "value": "4–5",
+          "label": "External engagement examples aimed for"
+        },
+        {
+          "value": "3",
+          "label": "Parts in each evidence entry"
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Aims and purpose",
+      "subtitle": "Use this opening section to explain what the coursework is for and how the site is organised.",
+      "lead": "I want this opening section to explain clearly what the portfolio is for and how the rest of the site should be read.",
+      "blocks": [
+        {
+          "title": "Why I built the portfolio this way",
+          "type": "paragraphs",
+          "items": [
+            "I realised quite early on that this coursework is not really asking for a general ecology portfolio. It is asking for an evidence base that shows how I am developing as someone who can identify organisms carefully, explain my reasoning, and reflect honestly on my strengths and weaknesses.",
+            "Because of that, I have organised the site around the competency areas in the brief rather than around a normal CV-style structure. I want the marker to be able to move through the portfolio and see exactly where each requirement is being addressed."
+          ]
+        },
+        {
+          "title": "What I think the coursework is asking me to show",
+          "type": "list",
+          "items": [
+            "That I understand why taxonomy and identification matter in ecology.",
+            "That I can handle evidence carefully, whether that is a specimen, an image, or a field record.",
+            "That I can work across plants, invertebrates, and vertebrates rather than staying in only one comfortable area.",
+            "That I can reflect on what I have actually learned instead of just listing tasks I completed."
+          ]
+        },
+        {
+          "title": "How I am structuring evidence",
+          "type": "list",
+          "items": [
+            "Context: what the activity was, where it happened, and why it mattered.",
+            "Activity: the notes, images, observations, and identification process itself.",
+            "Reflection: what I learned, where I struggled, and what I still need to improve."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taxonomy",
+      "title": "Competency 1: need for taxonomy and species identification",
+      "subtitle": "Show that you understand why taxonomy and accurate identification matter in ecology and conservation.",
+      "lead": "I have rewritten this section so it reads more like my own understanding of why taxonomy and identification matter, rather than a set of generic prompts.",
+      "blocks": [
+        {
+          "title": "Competency statement",
+          "type": "paragraphs",
+          "items": [
+            "For me, the biggest point of taxonomy and species identification is that ecology depends on being able to say clearly what is actually present. If the identification is weak, then the rest of the ecological interpretation can become weak as well. Habitat assessment, biological recording, conservation value, and even basic communication between ecologists all depend on naming organisms accurately.",
+            "Over the course of this module I have started to see taxonomy as much more than a classification system. It is the structure that makes field observations usable. Identification is what turns something I have seen in the field into evidence that another person can understand, check, and potentially use."
+          ]
+        },
+        {
+          "title": "Why this matters in practice",
+          "type": "list",
+          "items": [
+            "A survey only has value if the organisms recorded have been identified reliably.",
+            "Protected, invasive, rare, or indicator species can completely change how a site is interpreted.",
+            "Poor identification can create weak records and poor-quality ecological evidence.",
+            "Good identification gives me a clearer technical language for talking about habitats, species, and communities."
+          ]
+        },
+        {
+          "title": "What I have learned personally",
+          "type": "paragraphs",
+          "items": [
+            "At the start, I thought identification was mainly about remembering characteristics. I still think memory matters, but I now think the harder part is learning how to observe properly and how to justify an identification instead of jumping to the first answer that feels right.",
+            "One of the most useful things I have learned is that uncertainty is normal. I am becoming more careful about recognising when the evidence is strong, when I need another feature, and when I should leave something at a more cautious identification level."
+          ]
+        },
+        {
+          "title": "What I need to show with evidence",
+          "type": "list",
+          "items": [
+            "Images or notes that show the characters I actually used.",
+            "Examples where I had to separate similar taxa.",
+            "The resources I checked before deciding on an identification.",
+            "Short reflections on where I was confident and where I was not."
+          ]
+        },
+        {
+          "title": "Reflection",
+          "type": "paragraphs",
+          "items": [
+            "The main shift in my thinking is that I no longer see identification as a side skill. I now see it as one of the foundations of credible ecological work.",
+            "I also think I have become more honest about the difference between recognising something and proving it. That is probably the biggest change in how I approach the rest of this portfolio."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "handling",
+      "title": "Competency 2: specimen handling and curation",
+      "subtitle": "Document how specimens were handled, preserved, labelled, mounted, stored, or photographed.",
+      "lead": "I have rewritten this section in a more personal voice so it reads as my own account of why handling and curation matter.",
+      "blocks": [
+        {
+          "title": "Competency statement",
+          "type": "paragraphs",
+          "items": [
+            "I have come to see specimen handling and curation as part of identification rather than something separate from it. If the specimen is damaged, poorly labelled, badly photographed, or presented without enough context, then even good taxonomic knowledge becomes harder to apply properly.",
+            "For that reason, I think handling and curation should be treated as evidence skills. They affect whether another person can understand, verify, or trust the identification that follows."
+          ]
+        },
+        {
+          "title": "Why it matters",
+          "type": "list",
+          "items": [
+            "It protects useful diagnostic features from being damaged or overlooked.",
+            "It makes later checking possible if I am uncertain or if someone else needs to verify the material.",
+            "It links the specimen or image to the context in which it was collected or observed.",
+            "It makes the identification process more professional and easier to defend."
+          ]
+        },
+        {
+          "title": "What I have learned in practice",
+          "type": "paragraphs",
+          "items": [
+            "Earlier on, I was mainly focused on getting enough information to name something quickly. I now think more carefully about whether the material is intact, whether the right structures are visible, and whether I have recorded enough information alongside it for the evidence to remain useful afterwards.",
+            "I also understand better now that different kinds of material need different handling approaches. Something small or delicate cannot be treated in the same way as something larger and easier to examine."
+          ]
+        },
+        {
+          "title": "Good practice I want to demonstrate",
+          "type": "list",
+          "items": [
+            "Clear labels with date, place, and relevant context.",
+            "Images that show more than one angle when a single view is not enough.",
+            "Careful positioning or preparation so important features can be seen.",
+            "Short notes explaining why the way I handled the material mattered for identification."
+          ]
+        },
+        {
+          "title": "Reflection",
+          "type": "paragraphs",
+          "items": [
+            "The biggest thing I have learned from this competency is that care at the start saves problems later. Good handling makes identification stronger, while careless handling can remove the exact evidence I need.",
+            "I still need to become more consistent so that good practice feels automatic rather than something I remember only after I have started examining the material."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taxa",
+      "title": "Competency 3: taxa identification",
+      "subtitle": "Split this into plants, invertebrates, and vertebrates so the marker can see coverage clearly.",
+      "lead": "I have rewritten this section so it sounds more like my own developing understanding of identifying plants, invertebrates, and vertebrates.",
+      "blocks": [
+        {
+          "title": "Competency statement",
+          "type": "paragraphs",
+          "items": [
+            "This competency has shown me that identification is really a process of reasoning across different taxonomic groups, not just a matter of remembering names. Plants, invertebrates, and vertebrates all demand different ways of looking, and each group has made me notice different weaknesses in my own approach.",
+            "What I am trying to show here is that I can move beyond first impressions and base an identification on observed characters, checked resources, and a realistic sense of certainty."
+          ]
+        },
+        {
+          "title": "Plants",
+          "type": "paragraphs",
+          "items": [
+            "Plant identification has made me much more aware of the need to look systematically. I used to rely too much on the overall appearance of a plant, but I now pay more attention to details such as leaves, stems, flowers, growth habit, and habitat context.",
+            "I have also learned that one image is often not enough for plant evidence. If I want to justify an identification properly, I often need several images that show different parts of the organism."
+          ]
+        },
+        {
+          "title": "Invertebrates",
+          "type": "paragraphs",
+          "items": [
+            "Invertebrates have probably made me the most aware of how much detail matters. Small structures, tricky comparisons, and the limits of field observation all make this group challenging for me.",
+            "This has made me more cautious in a good way. I am more willing now to stop at the level that the evidence genuinely supports rather than pretending I can always push to species level immediately."
+          ]
+        },
+        {
+          "title": "Vertebrates",
+          "type": "paragraphs",
+          "items": [
+            "Vertebrate identification has reminded me that familiarity can sometimes create overconfidence. Because some vertebrates feel more recognisable, it can be easy to forget that distance, behaviour, light, and short observation time still affect reliability.",
+            "I am getting better at recording what I actually observed first and only then deciding how secure the identification is."
+          ]
+        },
+        {
+          "title": "What this section should prove",
+          "type": "list",
+          "items": [
+            "That I have worked across plants, invertebrates, and vertebrates.",
+            "That I can point to the characters used in my identifications.",
+            "That I can explain which resources helped me and where uncertainty remained.",
+            "That my confidence is developing through practice rather than assumption."
+          ]
+        },
+        {
+          "title": "Reflection",
+          "type": "paragraphs",
+          "items": [
+            "The main thing I have learned here is that each taxonomic group trains a slightly different kind of attention. Plants have made me more systematic, invertebrates have made me more careful, and vertebrates have made me more aware of context and overconfidence.",
+            "I still need more repetition across all three groups, but I do think I am now approaching identification in a more disciplined and defensible way than I was at the beginning."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sampling",
+      "title": "Competency 4: sampling and rapid assessment techniques",
+      "subtitle": "Focus on methods where identification was part of the workflow under real field conditions.",
+      "lead": "I have rewritten this section in a more personal way so it sounds like my own experience of identifying organisms within field methods.",
+      "blocks": [
+        {
+          "title": "Competency statement",
+          "type": "paragraphs",
+          "items": [
+            "This competency has helped me see the difference between being able to identify something eventually and being able to do it within the pace of real fieldwork. Sampling methods bring time pressure, awkward conditions, and practical constraints, so identification becomes much more applied.",
+            "For me, this section is about showing that method and identification cannot be separated. The way I sample affects the evidence I get, and the quality of identification affects the usefulness of the sampling result."
+          ]
+        },
+        {
+          "title": "Why this matters",
+          "type": "list",
+          "items": [
+            "Rapid methods depend on quick but sensible identification decisions.",
+            "Errors made during sampling can affect species lists and later ecological interpretation.",
+            "Field conditions often make perfect certainty unrealistic, so judgement becomes important.",
+            "A competent ecologist needs to know what can be identified immediately and what should be checked later."
+          ]
+        },
+        {
+          "title": "What I have learned from doing this",
+          "type": "paragraphs",
+          "items": [
+            "Sampling has made identification feel more demanding but also more realistic. When I am working within a method, I do not have unlimited time to think, so I have to pay attention to the characters that matter most and keep my notes organised enough for later checking.",
+            "I have learned that speed should not come from guessing. It should come from better habits, clearer observation, and more familiarity with the workflow."
+          ]
+        },
+        {
+          "title": "Methods I can discuss here",
+          "type": "list",
+          "items": [
+            "Quadrats and vegetation recording.",
+            "Transects and other structured survey routes.",
+            "Sweep netting or similar invertebrate methods.",
+            "Kick sampling or freshwater rapid assessments where relevant.",
+            "Point counts or live field observations where vertebrate identification happened in real time."
+          ]
+        },
+        {
+          "title": "Reflection",
+          "type": "paragraphs",
+          "items": [
+            "The biggest insight here is that field identification is really about making sensible decisions under pressure without dropping the standard of evidence too far.",
+            "I still want to improve my speed and consistency, but I think I now understand much better when I can be confident in the field and when I need to record carefully and confirm later."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engagement",
+      "title": "Competency 5: wider community engagement",
+      "subtitle": "Include evidence of continued professional development and engagement beyond core practicals.",
+      "lead": "I have rewritten this section so it sounds more like my own understanding of why outside engagement matters for becoming better at identification.",
+      "blocks": [
+        {
+          "title": "Competency statement",
+          "type": "paragraphs",
+          "items": [
+            "One of the clearest lessons from this coursework is that identification skills do not develop properly in isolation. I can improve by practising on my own, but I improve much faster when I engage with people, events, and organisations that already work with these skills regularly.",
+            "I now see wider community engagement as part of becoming a field ecologist rather than as an optional extra. It gives me access to better habits, better resources, and more realistic standards."
+          ]
+        },
+        {
+          "title": "Why I think this matters",
+          "type": "list",
+          "items": [
+            "It exposes me to people with more experience than me.",
+            "It helps me learn how identification works in real communities of practice.",
+            "It pushes me to work beyond the taxa or methods I already feel comfortable with.",
+            "It helps turn course learning into longer-term professional development."
+          ]
+        },
+        {
+          "title": "Types of activity I can use",
+          "type": "list",
+          "items": [
+            "Courses and online training.",
+            "Recording scheme days and local events.",
+            "Workshops, field days, and museum sessions.",
+            "Volunteering or seminar attendance where identification or sampling is relevant."
+          ]
+        },
+        {
+          "title": "Reflection",
+          "type": "paragraphs",
+          "items": [
+            "This competency has made me think more seriously about what kind of ecologist I want to become and what habits I need to build now. If I want to be confident with identification in the future, I need to keep placing myself in situations where I can learn from others and keep practising outside taught sessions.",
+            "I also think this section is important because it shows initiative. It is evidence that I am trying to build my skills beyond the absolute minimum required in class."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Tools and strategies for identification",
+      "subtitle": "Show the tools you used and critique them briefly instead of just listing them.",
+      "lead": "I have rewritten this section so it sounds more like my own working view of the resources I use during identification.",
+      "blocks": [
+        {
+          "title": "How I think about identification tools",
+          "type": "paragraphs",
+          "items": [
+            "I do not think identification depends on one perfect resource. What I have found instead is that different tools help at different stages. Some help me plan where to look, some help me narrow down likely taxa, and some help me confirm details more carefully.",
+            "Because of that, I want this section to show not just what I used, but how I used it and why it was useful or limited in practice."
+          ]
+        },
+        {
+          "title": "Locating species",
+          "type": "paragraphs",
+          "items": [
+            "Resources such as NBN Atlas and GBIF are useful because they help me understand where species have been recorded and what might be realistic in a particular area. I find them especially helpful for planning fieldwork and building expectations before going out.",
+            "At the same time, I have learned not to rely on distribution data too much. A species being likely in an area does not prove that what I saw was that species."
+          ]
+        },
+        {
+          "title": "Resources I can evaluate here",
+          "type": "list",
+          "items": [
+            "Taxonomic keys.",
+            "Field guides.",
+            "Apps and online resources.",
+            "Hand lenses, microscopes, and close-up image tools.",
+            "Museums, recording communities, and specialist reference material."
+          ]
+        },
+        {
+          "title": "What I have learned from using them",
+          "type": "paragraphs",
+          "items": [
+            "The biggest thing I have learned is that tools are only useful when I use them critically. A guide or app can help, but it cannot make up for weak observation. I still need to look at the organism carefully and decide whether the evidence really fits.",
+            "I also think I am becoming better at combining resources instead of relying on whichever one is easiest in the moment. That makes the final identification more defensible."
+          ]
+        },
+        {
+          "title": "Reflection",
+          "type": "paragraphs",
+          "items": [
+            "This section has made me more strategic about my own workflow. I want to keep building a toolkit that matches different taxa and different situations instead of approaching every identification in the same way.",
+            "Long term, I think this will help me become both more efficient and more careful."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irecord",
+      "title": "iRecord activity",
+      "subtitle": "Include evidence that you practised biological recording using iRecord.",
+      "lead": "I have rewritten this section so it sounds more like my own account of what I learned from recording through iRecord.",
+      "blocks": [
+        {
+          "title": "Competency statement",
+          "type": "paragraphs",
+          "items": [
+            "Using iRecord has helped me see the difference between noticing a species for myself and submitting a record that might be useful to other people. Once I am recording something formally, the quality of the evidence matters much more because the record has to make sense beyond my own notes.",
+            "That makes iRecord useful for this portfolio because it links identification skill to real recording practice rather than keeping it as a purely academic exercise."
+          ]
+        },
+        {
+          "title": "What I have learned from the process",
+          "type": "paragraphs",
+          "items": [
+            "The biggest thing iRecord has changed for me is how carefully I think about evidence. I am more aware now of image quality, location details, and whether I have actually recorded enough to support the identification properly.",
+            "It has also made me think more like someone contributing to a wider evidence base rather than just completing a task for myself."
+          ]
+        },
+        {
+          "title": "What I should include here",
+          "type": "list",
+          "items": [
+            "Screenshots or examples of my submitted records.",
+            "Supporting images used for those records.",
+            "Short explanations of why the record was credible.",
+            "Any corrections, comments, or lessons that came from the submission process."
+          ]
+        },
+        {
+          "title": "Reflection",
+          "type": "paragraphs",
+          "items": [
+            "This activity has made me more careful and more accountable. If I expect a record to be taken seriously, then I need to make sure the identification and the supporting evidence are both strong enough to justify it.",
+            "I think continuing to use recording systems like this will help me keep improving because they connect field observation, identification, and evidence quality in a very practical way."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "checklist",
+      "title": "Format and rubric checklist",
+      "subtitle": "Use this final section as a build checklist before submission.",
+      "lead": "I have rewritten the final section so it reads more like my own working checklist before submission.",
+      "blocks": [
+        {
+          "title": "What I need to keep checking",
+          "type": "list",
+          "items": [
+            "Each required competency area is clearly present.",
+            "Every section includes context, activity, and reflection.",
+            "Images are explained properly instead of being left on their own.",
+            "Identification claims are linked to evidence, characters, or resources.",
+            "The site is easy to navigate for someone who does not know the coursework already."
+          ]
+        },
+        {
+          "title": "Writing reminders for myself",
+          "type": "paragraphs",
+          "items": [
+            "I need to keep the tone professional and clear, but I also need it to sound like me. The brief makes it clear that this portfolio should not feel copied from a textbook. It should sound like my own understanding built through practice.",
+            "I also need to keep checking grammar, spelling, British English, and whether I am using technical vocabulary accurately rather than vaguely."
+          ]
+        },
+        {
+          "title": "Final reflection before submission",
+          "type": "paragraphs",
+          "items": [
+            "The question I want this portfolio to answer is not just whether I completed the tasks, but whether the evidence really shows that my identification skills are developing in a credible way.",
+            "If the final version does that clearly, then I think the site will be much closer to what the coursework is actually asking for."
+          ]
+        }
+      ]
+    }
+  ]
+}
